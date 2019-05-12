@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>project</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+<style>
+    body{
+    background-color:lightblue;
+    }
+  p{
+    color:black;
+  }
+  h1{
+  text-align:center;
+  }
+
+  div.transbox
+  {
+    border-radius:10px;
+    height:470px;
+    width:400px;
+    margin-left:450px;
+    margin-top:50px;
+    background-color:#ffffff;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+  }
+
+  div.transbox p{
+    color:#000000;
+  }
+
+button{
+  background-color:green;
+  color:white;
+  height:40px;
+  width:90px;
+  margin-left:150px;
+  border-radius:10px;
+}
+
+    </style>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+      <p style="font-family: 'Pacifico', cursive;font-size:30px;text-align:center;">LOGIN PAGE</p>
+
+  <div class="transbox">
+    <p style="font-family: 'Pacifico', cursive;font-size:35px;text-align:center;">Hello !</p>
+  <p style="margin-left:10px;font-size:20px">Enter your Registration Id</p>
+  <input style="margin-left:10px;height:40px;width:300px;border-radius:10px;" id="reg" type="text" placeholder="for ex:16030141IT050"></input>
+  <p style="margin-left:10px;font-size:20px">Enter your email</p>
+  <input style="margin-left:10px;height:40px;width:300px;border-radius:10px;" type="email" id="mail" placeholder="for ex:sujohnBTECH16@ced.alliance.edu"></input><br></br>
+
+  <button type="submit" onclick="isValid()">Submit</button>
+  <div>
+      <p id="out" style="font-family: 'Pacifico', cursive;font-size:20px;text-align:center;"></p>
+  </div>
+  </div>
+
+
+ <script src="login.js"></script>
+
+  </body>
+</html>

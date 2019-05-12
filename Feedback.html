@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>project</title>
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <style>
+    ul{
+      list-style-type:none;
+    }
+    li{
+      display:inline;
+      padding:10px;
+
+    }
+    .Navbar{
+      background-color:black;
+      color:white;
+      height:40px;
+      padding:10px;
+      text-decoration: none;
+    }
+body{
+background-color: #ffd9b3;
+}
+
+.class2
+{
+  float:right;
+  background-color:green;
+  height:50px;
+  width:150px;
+  color:white;
+  border-radius:10px;
+font-size: 30px;
+font-family: 'Lobster', cursive;
+}
+
+
+div.transbox
+{
+  border-radius: 10px;
+  height:530px;
+  margin-left:200px;
+  margin-top:20px;
+  width:1000px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  color: #000000;
+}</style>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="Navbar">
+      <ul>
+        <li>
+          <i class="fas fa-home"></i>
+               <a href="home.html" style="text-decoration:none;color:white;font-size:20px;">  <li >Home</li></a>
+                <a href="Internship.html" style="text-decoration:none;color:white;font-size:20px;">  <li >Internship's</li></a>
+                <a href="College.html" style="text-decoration:none;color:white;font-size:20px;">  <li >College Stuff</li></a>
+              <a href="Feedback.html" style="text-decoration:none;color:white;font-size:20px;">  <li >Contact Us</li></a>
+
+              </li>
+            </ul>
+        </div>
+<form name="send mail" action="" method="post">
+<div class="transbox">
+<p style="margin-left:30px;font-size:30px;font-family: 'Marck Script', cursive; ">Your Name<br>
+  <input type="text" name="name" size="35" style="font-size: 18px; height: 40px; width:850px;margin-left:30px; " ><br>
+Your Email<br>
+<input type="email" name="email"  style="font-size: 18px; height: 40px; width:850px;margin-left:30px; " ><br>
+  Subject<br>
+  <input type="text" name="submit" style="font-size: 18px; height: 50px; width:850px;margin-left:30px; "><br>
+Message<br>
+  <textarea type="text" name="message" style="font-size: 18pt; height: 100px; width:850px;margin-left:30px; "></textarea><br>
+  <button class="class2"  type="submit" >send</button>
+</div>
+</form>
+</body>
+</html>
